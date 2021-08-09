@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef>
+    <defName>IF_ShootingRange</defName>
+    <label>train shooting</label>
+    <description>Train ranged weapon use at a firing range.</description>
+    <jobString>Training.</jobString>
+    <workAmount>2000</workAmount>
+    <effectWorking>CutStone</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <workSkill>Shooting</workSkill>
+    <workSkillLearnFactor>5.2</workSkillLearnFactor>
+    <!-- The cost in time is sufficient to maintain balance, and the recipe ingredients only
+				distract from the game without adding anything.
+	    
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>WoodLog</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		-->
+    <recipeUsers>
+      <li>ShootingRange</li>
+    </recipeUsers>
+  </RecipeDef>
+  <!-- Something for the future.
+	<RecipeDef>
+		<defName>AR_LaserShootingRange</defName>
+		<label>laser train shooting</label>
+		<description>Train ranged weapon use by firing a laser at a mobile drone.</description>
+		<jobString>Training.</jobString>
+		<workAmount>2000</workAmount>
+		<effectWorking>CutStone</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<workSkill>Shooting</workSkill>
+		<workSkillLearnFactor>6.0</workSkillLearnFactor>
+		<recipeUsers>
+			<li>LaserShootingRange</li>
+		</recipeUsers>
+	</RecipeDef>
+	-->
+  <RecipeDef>
+    <defName>IF_TrainingDummy</defName>
+    <label>train melee</label>
+    <description>Trains close quarters combat against a straw dummy.</description>
+    <jobString>Training.</jobString>
+    <workAmount>2000</workAmount>
+    <effectWorking>CutStone</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <workSkill>Melee</workSkill>
+    <workSkillLearnFactor>5.2</workSkillLearnFactor>
+    <!--Change this line to make the skill gain higher for the job!-->
+    <recipeUsers>
+      <li>MrDummy</li>
+    </recipeUsers>
+  </RecipeDef>
+</Defs>

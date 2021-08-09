@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--
+  <ThingDef Name="BuildingBase_ActiveResponse" Abstract="True">
+    <category>Building</category>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <selectable>true</selectable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <repairEffect>Repair</repairEffect>
+  </ThingDef>
+-->
+  <ThingDef ParentName="BuildingBase">
+    <defName>ShootingRangeLeft</defName>
+    <label>shooting range left</label>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>The left side of the shooting range.</description>
+    <uiIconPath>Target/WallLeft_MenuIcon</uiIconPath>
+    <graphicData>
+      <texPath>Target/WallLeft</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(1,8)</drawSize>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>100</costStuffCount>
+    <costList>
+      <WoodLog>25</WoodLog>
+    </costList>
+    <!--constructEffect>ConstructWood</constructEffect-->
+    <altitudeLayer>Building</altitudeLayer>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>400</WorkToBuild>
+      <MaxHitPoints>350</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <size>(1,8)</size>
+    <designationCategory>Security</designationCategory>
+    <passability>Impassable</passability>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>ShootingRange</defName>
+    <label>shooting range</label>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>A shooting range for training shooting skill.</description>
+    <uiIconPath>Target/WallMiddle_MenuIcon</uiIconPath>
+    <graphicData>
+      <texPath>Target/WallMiddle</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(1,8)</drawSize>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>50</costStuffCount>
+    <costList>
+      <WoodLog>75</WoodLog>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>500</WorkToBuild>
+      <MaxHitPoints>350</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <size>(1,8)</size>
+    <designationCategory>Security</designationCategory>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-4)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <passability>Impassable</passability>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>ShootingRangeRight</defName>
+    <label>shooting range right</label>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>The right side of the shooting range.</description>
+    <uiIconPath>Target/WallRight_MenuIcon</uiIconPath>
+    <graphicData>
+      <texPath>Target/WallRight</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(1,8)</drawSize>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>100</costStuffCount>
+    <costList>
+      <WoodLog>25</WoodLog>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>400</WorkToBuild>
+      <MaxHitPoints>350</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <size>(1,8)</size>
+    <designationCategory>Security</designationCategory>
+    <passability>Impassable</passability>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>MrDummy</defName>
+    <label>training dummy</label>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>A straw dummy for training melee skill.</description>
+    <uiIconPath>Target/MrDummy_north</uiIconPath>
+    <graphicData>
+      <texPath>Target/MrDummy</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <costList>
+      <Hay>75</Hay>
+    </costList>
+    <stuffCategories>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>50</costStuffCount>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsFurniture</li>
+    </thingCategories>
+    <fillPercent>1</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>200</WorkToBuild>
+      <MaxHitPoints>350</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <Mass>30</Mass>
+    </statBases>
+    <size>(1,1)</size>
+    <designationCategory>Security</designationCategory>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+  </ThingDef>
+</Defs>

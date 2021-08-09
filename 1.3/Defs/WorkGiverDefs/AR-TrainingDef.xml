@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WorkGiverDef>
+    <defName>IF_TrainingShooting</defName>
+    <label>shooting training</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Hunting</workType>
+    <verb>train</verb>
+    <gerund>training</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <fixedBillGiverDefs>
+      <li>ShootingRange</li>
+    </fixedBillGiverDefs>
+  </WorkGiverDef>
+  <!-- Something for the future
+    <WorkGiverDef>
+    <defName>ART_LaserTraining</defName>
+	<label>laser shooting training</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Hunting</workType>
+    <verb>train</verb>
+    <gerund>training</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+	<fixedBillGiverDefs>
+		<li>LaserShootingRange</li>
+	</fixedBillGiverDefs>
+  </WorkGiverDef>
+  -->
+  <WorkGiverDef>
+    <defName>IF_TrainingMelee</defName>
+    <label>melee training</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Hunting</workType>
+    <verb>train</verb>
+    <gerund>training</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <fixedBillGiverDefs>
+      <li>MrDummy</li>
+    </fixedBillGiverDefs>
+  </WorkGiverDef>
+</Defs>

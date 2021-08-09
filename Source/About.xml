@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>ActiveResponseTraining</name>
+  <author>James76543</author>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+  </supportedVersions>
+  <packageId>james76543.ActiveResponseTraining</packageId>
+  <description>
+	
+Combat threats are the biggest risk to your colony's survival! Shooting and Melee proficiency is no joking matter, and now you have a place to hone your shooting and melee skills to be prepared when the next raider, mechanoid, or ravaging horde of bloodthirsty squirrels comes looking for trouble.
+
+This mod adds a modular shooting range and melee dummy to train combat skills. They utilise the bill system and give experience (skill gain) comparable but higher than manually training combat and other typical activities like smithing or sculpting.
+
+Only colonists set as hunters will train at these new buildings.  The center of the shooting range must be accessible in order to train as well, so make sure the shooting range is in the zone for the pawns you want, otherwise they won't train and you won't be able to force training.  (If you know how to change that, let me know!  The interactionCellOffset doesn't fix it.)
+
+This update is carefully balanced so that it takes a reasonable amount of time to gain skill and maintain that skill. A colonist at max skill should expect to spend about 2-3 hours a day training to maintain that max skill. This is comparable but higher than other skills. The bill system can be used wisely to keep your shooters sharp. 
+Set a bill to train forever and limit only those with skill 19 to use it. When their skills degrade to 19, they will go to train until they're above 20 again. If the bills are set right, they should spend their time wisely without any manual intervention and be ready when you need them.
+
+Training is free for melee, and once CombatExtended is updated I will try to add a path to add a bullet cost, but for now shooting requires only time as well (after all you can just draft a colonist and shoot a wall).
+
+This mod was created by ItchyFlea, but it hasn't been updated in a while. I made updates to it and have been using it myself for the last few versions, so I thought I would upload it because I haven't seen any comparable mods and defense is such an important part of the game. I took the most recent update and added a few features that I felt it needed:
+
+1) Training for battle is serious, so no more joy from training. Previously I had people not capable of combat come and shoot a gun just for joy.
+2) Dummy is uninstallable (minifiable).
+3) More options for construction, and changed the textures slightly to pick up the 'stuff' colors.
+4) Dummy can be made of any leather + hay, this picks up leathers from other mods.
+5) Shooting range can be made of any woody, stony, or metallic stuff. This picks up materials from other mods too.
+
+Lastly, this mod is super easy to customize if anyone wants to increase the skill gain rate. Navigate to the mod folder, and go to \Defs\RecipeDefs\AR-Recipe.xml and edit the file with NotePad++ (or equivalent editor). The workSkillLearnFactor and workAmount is what you want to change. The skill points gained per job = workAmount * .11 * workSkillLearnFactor. So the default number should be about 1144 skill points per job, which is about 1144 skill points per hour. If you want to decrease the time to complete a training job, decrease workAmount and you'll see a proportional decrease in the time. 2000 is about an hour, 1000 is about half an hour. My intention is to possibly add this as a scale bar in the mod options menu.
+
+If anyone wants to contribute new art, please feel free to pm me. Art isn't my strong point!
+
+
+Credits:
+============
+ItchyFlea:	Mod Creator
+Shinzy:	Texture Artist
+James76543:	Updater
+</description>
+</ModMetaData>
