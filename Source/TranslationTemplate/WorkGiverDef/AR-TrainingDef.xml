@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: melee training -->
+  <IF_TrainingMelee.label>melee training</IF_TrainingMelee.label>
+  <!-- EN: training -->
+  <IF_TrainingMelee.gerund>training</IF_TrainingMelee.gerund>
+  <!-- EN: train -->
+  <IF_TrainingMelee.verb>train</IF_TrainingMelee.verb>
+  <!-- EN: shooting training -->
+  <IF_TrainingShooting.label>shooting training</IF_TrainingShooting.label>
+  <!-- EN: training -->
+  <IF_TrainingShooting.gerund>training</IF_TrainingShooting.gerund>
+  <!-- EN: train -->
+  <IF_TrainingShooting.verb>train</IF_TrainingShooting.verb>
+</LanguageData>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: training dummy -->
+  <MrDummy.label>training dummy</MrDummy.label>
+  <!-- EN: A straw dummy for training melee skill. -->
+  <MrDummy.description>A straw dummy for training melee skill.</MrDummy.description>
+  <!-- EN: shooting range -->
+  <ShootingRange.label>shooting range</ShootingRange.label>
+  <!-- EN: A shooting range for training shooting skill. -->
+  <ShootingRange.description>A shooting range for training shooting skill.</ShootingRange.description>
+  <!-- EN: shooting range left -->
+  <ShootingRangeLeft.label>shooting range left</ShootingRangeLeft.label>
+  <!-- EN: The left side of the shooting range. -->
+  <ShootingRangeLeft.description>The left side of the shooting range.</ShootingRangeLeft.description>
+  <!-- EN: shooting range right -->
+  <ShootingRangeRight.label>shooting range right</ShootingRangeRight.label>
+  <!-- EN: The right side of the shooting range. -->
+  <ShootingRangeRight.description>The right side of the shooting range.</ShootingRangeRight.description>
+</LanguageData>

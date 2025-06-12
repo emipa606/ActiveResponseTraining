@@ -2,5 +2,12 @@
   "Continued": true,
   "CanAdd": "0",
   "CanRemove": "2",
-  "PreviewVersion": "1.5"
+  "PreviewVersion": "1.6",
+  "SocialImageSet": true,
+  "SearchTags": [
+    "combat training",
+    " skill gain",
+    " defense"
+  ],
+  "LastXmlCleaning": "2025-06-12T11:28:32.958338+02:00"
 }

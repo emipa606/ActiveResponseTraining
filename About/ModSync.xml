@@ -2,7 +2,7 @@
 <ModSyncNinjaData>
   <ID>0e4525f4-3956-4d9c-93ed-ad8012d53bb6</ID>
   <ModName>ActiveResponseTraining (Continued)</ModName>
-  <Version>1.5.0</Version>
+  <Version>1.6.0</Version>
   <SaveBreaking>False</SaveBreaking>
   <Host name="Github">
     <Owner>emipa606</Owner>
@@ -12,3 +12,4 @@
     <Branch>master</Branch>
   </Host>
 </ModSyncNinjaData>
+
