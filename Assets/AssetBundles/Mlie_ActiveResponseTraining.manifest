@@ -1,0 +1,50 @@
+ManifestFileVersion: 0
+CRC: 4208339680
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a8b377ec26fe902ac193a5623b949d6a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: a8b377ec26fe902ac193a5623b949d6a
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.ActiveResponseTraining/Textures/Target/WallLeft_MenuIcon.png
+- Assets/Data/Mlie.ActiveResponseTraining/Textures/Target/WallMiddle_MenuIcon_old.png
+- Assets/Data/Mlie.ActiveResponseTraining/Textures/Target/WallRight_east.png
+- Assets/Data/Mlie.ActiveResponseTraining/Textures/Target/WallLeft_Icon.png
+- Assets/Data/Mlie.ActiveResponseTraining/Textures/Target/WallRight_MenuIcon.png
+- Assets/Data/Mlie.ActiveResponseTraining/Textures/Target/WallRight_southm.png
+- Assets/Data/Mlie.ActiveResponseTraining/Textures/Target/MrDummy_south.png
+- Assets/Data/Mlie.ActiveResponseTraining/Textures/Target/WallMiddle_MenuIcon.png
+- Assets/Data/Mlie.ActiveResponseTraining/Textures/Target/Target.png
+- Assets/Data/Mlie.ActiveResponseTraining/Textures/Target/WallLeft_south.png
+- Assets/Data/Mlie.ActiveResponseTraining/Textures/Target/WallRight_south.png
+- Assets/Data/Mlie.ActiveResponseTraining/Textures/Target/WallMiddle_north.png
+- Assets/Data/Mlie.ActiveResponseTraining/Textures/Target/WallMiddle_Icon.png
+- Assets/Data/Mlie.ActiveResponseTraining/Textures/Target/WallLeft_north.png
+- Assets/Data/Mlie.ActiveResponseTraining/Textures/Target/WallLeft_eastm.png
+- Assets/Data/Mlie.ActiveResponseTraining/Textures/Target/WallMiddle_south.png
+- Assets/Data/Mlie.ActiveResponseTraining/Textures/Target/WallLeft_east.png
+- Assets/Data/Mlie.ActiveResponseTraining/Textures/Target/WallLeft_northm.png
+- Assets/Data/Mlie.ActiveResponseTraining/Textures/Target/WallLeft_southm.png
+- Assets/Data/Mlie.ActiveResponseTraining/Textures/Target/WallMiddle_eastm.png
+- Assets/Data/Mlie.ActiveResponseTraining/Textures/Target/WallRight_north.png
+- Assets/Data/Mlie.ActiveResponseTraining/Textures/Target/WallMiddle_east.png
+- Assets/Data/Mlie.ActiveResponseTraining/Textures/Target/WallMiddle_northm.png
+- Assets/Data/Mlie.ActiveResponseTraining/Textures/Target/WallRight_eastm.png
+- Assets/Data/Mlie.ActiveResponseTraining/Textures/Target/WallLeft_MenuIcon_old.png
+- Assets/Data/Mlie.ActiveResponseTraining/Textures/Target/WallRight_northm.png
+- Assets/Data/Mlie.ActiveResponseTraining/Textures/Target/WallMiddle_southm.png
+- Assets/Data/Mlie.ActiveResponseTraining/Textures/Target/WallRight_Icon.png
+- Assets/Data/Mlie.ActiveResponseTraining/Textures/Target/MrDummy_north.png
+- Assets/Data/Mlie.ActiveResponseTraining/Textures/Target/WallRight_MenuIcon_old.png
+- Assets/Data/Mlie.ActiveResponseTraining/Textures/Target/MrDummy_east.png
+Dependencies: []
